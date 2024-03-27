@@ -1,9 +1,4 @@
-
-
-export default function Home(){
-    return (
-        <div>
-            hello
-        </div>
-    );
+import Videos from "../Videos";
+export default function Home() {
+  return <Videos />;
 }
