@@ -1,5 +1,5 @@
 import Account from './Account';
-import classes from './styles/Nav.module.css';
+import classes from '../styles/Nav.module.css';
 import logo from '../assets/images/logo-bg.png';
 
 export default function Nav() {
