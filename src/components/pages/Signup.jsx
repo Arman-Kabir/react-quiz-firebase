@@ -1,5 +1,5 @@
 import Form from "../Form";
-import Illustration from "../Illustration";
+import Illustration from "../Illustration.jsx";
 import classes from '../../styles/Signup.module.css';
 
 export default function Signup() {
