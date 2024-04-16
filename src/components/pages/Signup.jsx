@@ -16,21 +16,29 @@ export default function Signup() {
         <Form className={`${classes.signup}`}>
           <TextInput type="text" placeholder="Enter Name" icon="person" />
 
-          <TextInput type="text" placeholder="Enter email" icon="alternate_email" />
+          <TextInput
+            type="text"
+            placeholder="Enter email"
+            icon="alternate_email"
+          />
 
           <TextInput type="password" placeholder="Enter password" icon="lock" />
 
-          <TextInput type="password" placeholder="Confirm password" icon="lock_clock" />
+          <TextInput
+            type="password"
+            placeholder="Confirm password"
+            icon="lock_clock"
+          />
 
           <Checkbox text={`I agree to the Terms  Conditions`} />
 
-          <Button> Submit Now</Button>
+          <Button>
+            <span>Submit Now</span>
+          </Button>
 
           <div className="info">
-              Already have an account? <a href="login.html">Login</a> instead.
-            </div>
-
-
+            Already have an account? <a href="login.html">Login</a> instead.
+          </div>
         </Form>
       </div>
     </>
