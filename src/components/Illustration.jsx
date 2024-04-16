@@ -16,7 +16,7 @@ export default function Illustration() {
     }
   },[]);
 
-  console.log(location);
+  // console.log(location);
   return (
     <>
       <div className={classes.illustration}>
