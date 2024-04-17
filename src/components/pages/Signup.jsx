@@ -4,6 +4,7 @@ import Illustration from "../Illustration";
 import TextInput from "../TextInput";
 import Checkbox from "../Checkbox";
 import Button from "../Button";
+import {Link} from 'react-router-dom';
 
 export default function Signup() {
   return (
@@ -37,7 +38,7 @@ export default function Signup() {
           </Button>
 
           <div className="info">
-            Already have an account? <a href="login.html">Login</a> instead.
+            Already have an account? <Link to="/login">Login</Link> instead.
           </div>
         </Form>
       </div>

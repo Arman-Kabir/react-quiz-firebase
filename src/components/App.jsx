@@ -12,15 +12,15 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" component={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
 
-          <Route path="/signup" component={<Signup />}></Route>
+          <Route path="/signup" element={<Signup />}></Route>
 
-          <Route path="/login" component={<Login />}></Route>
+          <Route path="/login" element={<Login />}></Route>
 
-          <Route path="/quiz" component={<Quiz />}></Route>
+          <Route path="/quiz" element={<Quiz />}></Route>
 
-          <Route path="/result" component={<Result />}></Route>
+          <Route path="/result" element={<Result />}></Route>
         </Routes>
       </Layout>
     </Router>

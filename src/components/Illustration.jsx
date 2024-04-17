@@ -9,7 +9,7 @@ export default function Illustration() {
 
   useEffect(() => {
     let location = window.location.href;
-    if (location.includes("signup.html")) {
+    if (location.includes("signup")) {
       setLogin(false);
     } else {
       setLogin(true);
