@@ -1,12 +1,17 @@
+import Answers from "./Answers";
+import classes from "../styles/Question.module.css";
 
 export default function Question() {
   return (
-    <div class="question">
-            <div class="qtitle">
-              <span class="material-icons-outlined"> help_outline </span>
-              Here goes the question from Learn with Sumit?
-            </div>
-            <div class="answers">
+    <div className={classes.question}>
+      <div className={classes.qtitle}>
+        <span className="material-icons-outlined"> help_outline </span>
+        Here goes the question from Learn with Sumit?
+      </div>
+
+      <Answers></Answers>
+      {/* <div class="answers">
+
               <!-- Option 1 -->
               <label class="answer" for="option1"> A New Hope 1 </label>
 
@@ -36,7 +41,8 @@ export default function Question() {
 
               <!-- Option 10 -->
               <label class="answer" for="option10"> A New Hope 1 </label>
-            </div>
-          </div>
-  )
+
+            </div> */}
+    </div>
+  );
 }
